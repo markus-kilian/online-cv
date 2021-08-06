@@ -3,190 +3,186 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    #about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    #education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Markus Kilian
+    tagline: Meteorologist
+    avatar: profile_mini.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: markus@markus-kilian.de
+    phone: 
+    website: markus-kilian.de #do not add http://
+    #linkedin: alandoe
+    #xing: alandoe
+    github: markus-kilian
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@mkilian'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: German
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Fluent
 
     interests:
+      - item: Paragliding
+        link:
+
       - item: Climbing
         link:
 
-      - item: Snowboarding
+      - item: Hiking
         link:
 
-      - item: Cooking
+      - item: Playing organ and piano
         link:
-
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      As an analytical meteorologist I am inspired by new and complex problems,
+      which I can solve by creative approaches. From the development and application
+      of numerical and statistical climate models I own comprehensive experience in
+      analysis and visualization of large data sets. I can produce and communicate 
+      results clearly and unambiguously to broad audiences.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: PhD in Earth System Science
+      university: University of Hamburg
+      time: 2013 - 2018
+      details: |
+        Climate variability and potential future climate change in southern
+        Amazonia: sensitivity of the hydrological cycle to land use changes
+    - degree: MSc in Meteorogoly
+      university: University of Hamburg
       time: 2011 - 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Future Climates from Bias-Bootstrapped Weather Analogs:  An Application to
+        the Amazon River Basin Projecting the climate for the Amazon river basin 
+        with a statistical model.
+    - degree: Bachelor of Science in Meteorology
+      university: University of Hamburg
+      time: 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Klimaeffekt der Kuwae-Eruption 1453 - Investigation of climate
+        changes due to the Kuwae eruption in 1453 in the Millienium 
+        experiment Max–Plank-Institute of Meteorology
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Post-Doctoral Researcher
+      time: 2017 - Present
+      company: University of Hamburg, Germany
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Dynamical and statistical downscaling of weather data, development of a webtool for risk assessment of bark beetle spread – IpsPro project
+          - Regional climate simulation and climate impact studies on land use changes in the region of Brazil, Peru and Bolivia – Prodigy project
+    - role: Data analyst 
+      time: 2015 - 2016
+      company: University of Hamburg, Germany
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Data analysis, pre-processing and calculation of drought indices in the working package one (WP1) – EIT Climate-KIC grant WINnERS
+        (Weather INdex-based wEather-driven Risk Services) project
+    - role: Climate Modeller	
+      time: 2013 - 2015
+      company: University of Hamburg, Germany
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Simuating high resolution weather and climate data for regional climate modelling in the Himalayan region – CLASH
+          - WRF simulations and climate modelling in the regional of southern Amazonia with a focus on Brazil – CarBioCial
+    - role: Researcher	
+      time: 2012 - 2013
+      company: University of Hamburg, Germany
+      details: |
+        Statistical climate simulations for climate predictions – Aksu Tarim
 projects:
-    title: Projects
+    title: Additional Experience
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Supervisor
+        tagline: 
+            - "Master thesis: Improving long-term wind energy production estimates: Sensitivity of methods and reference data. Finalized: Dec 2019"
+      - title: Supervisor
+        tagline: 
+            - "Bachelor thesis: Analysis of Geopolitical responses to retreating sea ice in the arctic"
+      - title: Student Assistant
+        tagline: "Centre for Science and Peace Research Student assistant: Modeling and simulation of Krypton-85 radio nucleid emissions"
+      - title: Lecturer
+        tagline: "Introduction to WRF: dynamic downscaling and weather prediction, Course 2019"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Simulation of Atmospheric Noble Gas Transport to Assess Sampling Procedures for Locating Unreported Reprocessing (IAEA-CN–184)
+        link: "https://inis.iaea.org/collection/NCLCollectionStore/_Public/42/081/42081479.pdf?r=1"
+        authors: Klingberg, F. J., Hebel, S., Kilian, M., Kalinowski, Martin B., & Wotawa,Gerhard
+        conference: International Atomic Energy Agency (IAEA), 2010
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Development and implementation of a hierarchical model chain for modelling regional climate variability and climate change
+               over southern Amazonia. Interdisciplinary Analysis and Modeling of Carbon-Optimized Land Management Strategies for Southern Amazonia.
+        link: "https://univerlag.uni-goettingen.de/handle/3/isbn-978-3-86395-138-2"
+        authors: Böhner, J., Aurelio, M., Dietrich, H., Fraedrich, K., Kawohl, T., Kilian, M., Lucarini, V. & Lunkeit, F.
+        conference: Universitätsverlag Göttingen, 2014. Doi 10.17875/gup2014-741, 2014
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Future yields of double-cropping systems in  the Southern Amazon, Brazil, under climate change and technological development
+        link: "https://www.sciencedirect.com/science/article/abs/pii/S0308521X18312617"
+        authors: Hampf, A., Stella, T., Berg-Mohnicke, M., Kawohl, T., Kilian, M., Nendel, C.
+        conference: Agricultural Systems. Volume 177, January 2020, Elsevier. Doi:10.1016/j.agsy.2019.102707
+
+      - title: Evaluation of spatial variation characteristics of dynamically modelled precipitation and temperature fields - A comparative analysis of WRF simulations over western Amazonia and the central Himalayas.
+        link: "https://www.uni-goettingen.de/de/document/download/0387e97cbc08207fd7073b5deeb2b4b2.pdf/Homepage_Sum_B%C3%B6hner_etal.pdf"
+        authors: Böhner, J., Hasson, S. & Kilian, M.
+        conference: GeoÖko 41 41-66., 2020
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 77%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: R
+        level: 72%
 
-      - name: Angular
-        level: 98%
+      - name: Fortran
+        level: 64%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: C & C++
+        level: 33%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Java & Java Script
+        level: 20%
 
-      - name: Sketch & Photoshop
+      - name: Unix scripting
+        level: 84%
+
+      - name: HTML
+        level: 40%
+
+      - name: NCL
+        level: 79%
+
+      - name: Matlab 
+        level: 53%
+
+      - name: SQL
         level: 60%
+
+      - name: Latex
+        level: 82%
+
+      - name: Git
+        level: 78%
+
+      - name: Android app developement 
+        level: 15%
+
+      - name: Unix, Windos, Office, HPC, SAGA GIS, CDO 
+        level: 100%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
